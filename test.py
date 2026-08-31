@@ -1,4 +1,4 @@
-from gpu import GPU
+from src.gpu import GPU
 
 
 def test_vector_add():

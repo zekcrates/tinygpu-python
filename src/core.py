@@ -1,7 +1,7 @@
-from thread import Thread 
-from scheduler import Scheduler
-from fetcher import Fetcher
-from decoder import Decoder
+from .thread import Thread
+from .scheduler import Scheduler
+from .fetcher import Fetcher
+from .decoder import Decoder
 class Core:
     def __init__(self):
         self.scheduler = Scheduler()

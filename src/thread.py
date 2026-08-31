@@ -1,7 +1,7 @@
-from registers import Register
-from alu import Alu
-from pc import PC
-from lsu import LoadStoreUnit
+from .registers import Register
+from .alu import Alu
+from .pc import PC
+from .lsu import LoadStoreUnit
 
 
 class Thread:

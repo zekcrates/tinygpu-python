@@ -1,6 +1,6 @@
-from dcr import DeviceControlRegister
-from core import Core
-from dispatcher import Dispatcher
+from .dcr import DeviceControlRegister
+from .core import Core
+from .dispatcher import Dispatcher
 
 
 
