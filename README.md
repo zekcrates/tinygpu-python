@@ -99,9 +99,9 @@ FETCH → DECODE → REQUEST → WAIT → EXECUTE → UPDATE → FETCH ...
 | Register | Name | Description |
 |----------|------|-------------|
 | R0-R12 | general | read/write |
-| R13 | blockIdx | read-only, set by GPU |
-| R14 | blockDim | read-only, set by GPU |
-| R15 | threadIdx | read-only, set by GPU |
+| R13 | blockIdx | read-only |
+| R14 | blockDim | read-only|
+| R15 | threadIdx | read-only |
 
 
 
